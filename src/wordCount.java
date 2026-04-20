@@ -4,6 +4,7 @@ public class wordCount {
     public static void main(String[] args) {
         System.out.println(wordCount(new String[]{"a", "b", "a", "c", "b"}));
     }
+
     public static HashMap wordCount(String [] strings){
         HashMap<String , Integer> map = new HashMap<>();
         for(String str: strings){
